@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context="com.example.admin.contactinfoapp.DetailUserActivity">
+    <TextView
+        android:id="@+id/tv_name_detail"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_last_name_detail"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_street_detail"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/iv_detail_image"
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

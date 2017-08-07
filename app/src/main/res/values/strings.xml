@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ContactInfoApp</string>
+    <string name="lbl_btn_search">SEARCH</string>
+    <string name="lbl_btn_save">SAVE</string>
+    <string name="lbl_hint_et_name">NAME?</string>
+    <string name="lbl_btn_random">RANDOM</string>
+</resources>
